@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="questoes1a6.Q06">
+   <children>
+      <Button fx:id="gerar" layoutX="35.0" layoutY="215.0" mnemonicParsing="false" onMouseClicked="#gerarConta" prefHeight="36.0" prefWidth="121.0" text="Gerar Conta" />
+      <Label layoutX="10.0" layoutY="74.0" prefHeight="17.0" prefWidth="171.0" text="Quantidades de refri" />
+      <Label layoutX="11.0" layoutY="114.0" prefHeight="17.0" prefWidth="157.0" text="Quantidade de fatias: " />
+      <Label layoutX="10.0" layoutY="160.0" prefHeight="17.0" prefWidth="199.0" text="Quantidade de pessoas na mesa:" />
+      <TextField fx:id="quantRefri" layoutX="209.0" layoutY="70.0" prefHeight="25.0" prefWidth="112.0" />
+      <TextField fx:id="quantFatias" layoutX="209.0" layoutY="110.0" prefHeight="25.0" prefWidth="112.0" />
+      <TextField fx:id="quantMesa" layoutX="209.0" layoutY="156.0" prefHeight="25.0" prefWidth="112.0" />
+      <ImageView fitHeight="185.0" fitWidth="226.0" layoutX="347.0" layoutY="22.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../Downloads/Pizza-academia-gourmet-sua-academia-de-cursos-e-treinamentos-de-culinaria-e-gastronomia-novo-curso.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="35.0" layoutY="309.0" text="Total com taxa: " />
+      <Label layoutX="35.0" layoutY="347.0" text="Rateio por pessoa:" />
+      <Label layoutX="35.0" layoutY="276.0" prefHeight="17.0" prefWidth="97.0" text="Total sem taxa:" />
+      <Label layoutX="475.0" layoutY="215.0" prefHeight="17.0" prefWidth="98.0" text="Cobramos 10%" />
+      <Label fx:id="totalSemTaxa" layoutX="195.0" layoutY="276.0" prefHeight="17.0" prefWidth="64.0" text="0" />
+      <Label fx:id="totalComTaxa" layoutX="194.0" layoutY="309.0" prefHeight="17.0" prefWidth="84.0" text="0" />
+      <Label fx:id="rateioPessoa" layoutX="194.0" layoutY="347.0" prefHeight="17.0" prefWidth="84.0" text="0" />
+      <Label layoutX="21.0" layoutY="87.0" text="1,50 a unidade">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Label layoutX="21.0" layoutY="125.0" text="3,00 a unidade">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
